@@ -1,0 +1,21 @@
+/* Mehr Platz für Notizen */
+#speaker-notes {
+    width: 80% !important; /* Mehr Platz für Notizen */
+    font-size: 1.4em !important; /* Größere Schrift für bessere Lesbarkeit */
+    line-height: 1.5 !important;
+}
+
+/* Verkleinere die Slide-Vorschau oder blende sie komplett aus */
+#current-slide {
+    width: 20% !important; /* Falls du sie nur kleiner haben willst */
+}
+
+/* Falls du die Slide-Vorschau komplett ausblenden möchtest */
+#current-slide {
+    display: none !important;
+}
+
+/* Falls du die unteren Steuerelemente verstecken möchtest */
+#speaker-controls {
+    display: none !important;
+}
